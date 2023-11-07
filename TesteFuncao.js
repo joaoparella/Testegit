@@ -42,8 +42,8 @@ function entradaVetor(){
     return vect;
 }
 var numeros = entradaVetor();
-cresc = OrdenaVetor(numeros,true);
-console.log(cresc)
+testandoGIT = OrdenaVetor(numeros,true);
+console.log(testandoGIT)
 desc = OrdenaVetor(numeros,false);
 console.log(desc)
 
