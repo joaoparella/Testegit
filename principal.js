@@ -25,6 +25,8 @@ ES.mensagemCompleta(usuario1.assinatura);
 
 const generoTerror = new genero("TERROR")
 const generoSuspense = new genero("SUSPENSE")
+const generoComedia = new genero("COMEDIA")
+const generoRomance = new genero("ROMANCE")
 
 const filme1 = new filme("Barbieheimer",120," Um filme onde uma boneca constroi uma bomba nuclear",2024,generoTerror)
 const filme2 = new filme("Jogos mortais",120," Um homem prende pessoas que jogam um jogo que vale sua vida",2024,[generoTerror,generoSuspense])
