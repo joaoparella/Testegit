@@ -8,7 +8,7 @@ export default class filme{
     }
 
     compartilhar(){
-        return "Estou assistindo o filme "+this.nome+ " que conta a seguinte história: "+this.sinopse+ 
+        return "Estou assistindo o filme "+this.nome+ " que é do genero " + this.genero.nome +" que conta a seguinte história: "+this.sinopse+ 
         ", foi lançado em "+this.ano+" e tem duração de "+this.duracao+
         " minutos. Assista também!!";
     }
