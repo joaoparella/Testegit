@@ -32,11 +32,12 @@ const filme4 = new filme("J gar dahs",120," fghsfgh sfghfgh sfh sf",2024,[genero
 const filme5 = new filme("3434tgdfhfs",120," sfg heartgdvj  t4h s8aj40s",2024,[generoTerror,generoSuspense])
 
 
+
 ES.mensagemCompleta(filme2.genero.nome);
 ES.mensagemCompleta(filme1.compartilhar());
 
-//const serie1e1 = new Serie("O amanhecer de uma aventura","One piece a serie",64,"Preso em um barco afundado, luffy começa a jornada( que nunca acaba) ",2023,1,1)
-//const serie1e2 = new Serie("Blablabla","One piece a serie",64,"Blablabla",2023,2,1)
-//ES.mensagemCompleta(serie1e1.assistir());
-//ES.mensagemCompleta(serie1e1.compartilhar());
-//ES.mensagemCompleta(serie1e2.assistir());
+const serie1e1 = new Serie("O amanhecer de uma aventura","One piece a serie",64,"Preso em um barco afundado, luffy começa a jornada( que nunca acaba) ",2023,1,1)
+const serie1e2 = new Serie("Blablabla","One piece a serie",64,"Blablabla",2023,2,1)
+ES.mensagemCompleta(serie1e1.assistir());
+ES.mensagemCompleta(serie1e1.compartilhar());
+ES.mensagemCompleta(serie1e2.assistir());
