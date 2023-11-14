@@ -30,10 +30,6 @@ const generoRomance = new genero("ROMANCE")
 
 const filme1 = new filme("Barbieheimer",120," Um filme onde uma boneca constroi uma bomba nuclear",2024,generoTerror)
 const filme2 = new filme("Jogos mortais",120," Um homem prende pessoas que jogam um jogo que vale sua vida",2024,[generoTerror,generoSuspense])
-//const filme3 = new filme("Jasdasdsads",120," sag dfhd sgh sfgh ",2024,[generoTerror,generoSuspense])
-//const filme4 = new filme("J gar dahs",120," fghsfgh sfghfgh sfh sf",2024,[generoTerror,generoSuspense])
-//const filme5 = new filme("3434tgdfhfs",120," sfg heartgdvj  t4h s8aj40s",2024,[generoTerror,generoSuspense])
-
 
 
 ES.mensagemCompleta(filme2.genero.nome);
