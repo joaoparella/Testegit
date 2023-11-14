@@ -16,7 +16,8 @@ var senha = ES.entrada('Digite a senha: ')
 
 console.log(usuario1.senha)
 
-usuario1.senha = 'asdafvxcsAAAAcb@123'
+
+usuario1.senha = 'TestandoASenhaCorreta@123'
 console.log(usuario1.senha)
 
 ES.mensagemCompleta(usuario1.fazerLogin(login,senha));
