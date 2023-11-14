@@ -1,6 +1,7 @@
-class Datas{
+import moment from 'moment';
+
+export default class Datas{
     constructor(){
-        this.moment = require('moment');
         
     }
 
@@ -16,13 +17,12 @@ class Datas{
         data.subtract(dias, 'days')
     }
 
-    formataData(data){        
+    formataData(data){
+        console.log(typeof data)
         return data.format("DD/MM/YYYY");
     }
 
     dataAtual(){
-        return this.moment()
+        return moment()
     }
 }
-
-module.exports = Datas;

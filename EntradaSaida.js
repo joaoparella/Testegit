@@ -1,9 +1,7 @@
-
-class FuncoesES{
-    constructor(){   
-        this.prompt = require('prompt-sync');
-        
-        this.input = new this.prompt()
+import prompt from 'prompt-sync';
+export default class FuncoesES{
+    constructor(){    
+        this.input = prompt()
     }
     entrada(mensagem){        
         return this.input(mensagem);
@@ -34,4 +32,3 @@ class FuncoesES{
         
     }    
 }
-module.exports = FuncoesES;
