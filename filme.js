@@ -6,11 +6,11 @@ export default class filme{
         this.ano = ano;
         this.genero = genero;
     }
-
-    compartilhar(){
-        return "Estou assistindo o filme "+this.nome+ " que é do genero " + this.genero.nome +" que conta a seguinte história: "+this.sinopse+ 
-        ", foi lançado em "+this.ano+" e tem duração de "+this.duracao+
-        " minutos. Assista também!!";
+    
+    
+    compartilhar(){//
+        const generos = this.genero.map((value) => {return `${value.nome}`} )
+        return `Estou assistindo o filme ${this.nome} que é do genero ${generos} que conta a seguinte história: ${this.sinopse} foi lançado em ${this.ano} e tem duração de ${this.duracao} minutos. Assista também!!`        
     }
 
     assistir(){

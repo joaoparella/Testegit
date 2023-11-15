@@ -17,7 +17,7 @@ var senha = ES.entrada('Digite a senha: ')
 console.log(usuario1.senha)
 
 
-usuario1.senha = 'TestandoASenhaCorreta@123'
+usuario1.senha = 'TestandoAa@123'
 console.log(usuario1.senha)
 
 ES.mensagemCompleta(usuario1.fazerLogin(login,senha));
@@ -35,8 +35,8 @@ const filme4 = new filme("Jogos morasdsasadfsadsadgtais",120," Um homem prenfasd
 
 
 
-ES.mensagemCompleta(filme2.genero.nome);
-ES.mensagemCompleta(filme1.compartilhar());
+//ES.mensagemCompleta("filme genero "+generos);
+ES.mensagemCompleta(filme2.compartilhar());
 
 const serie1e1 = new Serie("O amanhecer de uma aventura","One piece a serie",64,"Preso em um barco afundado, luffy começa a jornada( que nunca acaba) ",2023,1,1)
 const serie1e2 = new Serie("Blablabla","One piece a serie",64,"Blablabla",2023,2,1)
